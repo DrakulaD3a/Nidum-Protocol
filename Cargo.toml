@@ -1,0 +1,16 @@
+[package]
+name = "nidum_protocol"
+version = "0.1.0"
+edition = "2021"
+authors = ["Lukáš Strnad <strnad.lukas@proton.me>"]
+license = "WTFPL"
+description = "This library contains bindings for nidum protocol."
+repository = "https://github.com/DrakulaD3a/Nidum-Protocol"
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
+
+[build-dependencies]
+cc = "1"
